@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static',filename='style.css')}}" type='text/css'>
+    <title>Rick Roll</title>
+</head>
+<body>
+    <p class="heading_text">Hall of Fame<p>
+    {% block content %}
+    <p class="heading_text">Rick Roll Count -{{count}}<p></p>
+    <div class='main_div'>
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in data %}
+                <tr>
+                    <td>{{item}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            {% endblock %}
+        </table>
+    <div>
+</body>
+</html>
