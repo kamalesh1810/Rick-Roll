@@ -1,7 +1,5 @@
 # Rick-Roll
 
-This repository contains the code which I used to Rick Roll over 200 students of my University.
-
 Before getting started, I'd suggest you to read my Medium article to get a better picture - https://medium.com/@kamalesh1810/how-i-rick-rolled-over-200-students-of-my-university-165d26c950b6
 
 **Disclaimer**- This demonstration is for educational purposes only. The contents of this repository should not be used to perform any harmful activities.
