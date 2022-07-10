@@ -2,6 +2,8 @@
 
 This repository contains the code which I used to Rick Roll over 200 students of my University.
 
+Before getting started, I'd suggest you to read my Medium article to get a better picture - https://medium.com/@kamalesh1810/how-i-rick-rolled-over-200-students-of-my-university-165d26c950b6
+
 **Disclaimer**- This demonstration is for educational purposes only. The contents of this repository should not be used to perform any harmful activities.
 
 #### Prerequisites
@@ -30,6 +32,7 @@ This repository contains the code which I used to Rick Roll over 200 students of
 
 #### Sending out Initial set of e-mails
 - In `mail_file.py` modify the `emailMsg` variable as per your requirement, and edit the `sender_email` and `sender_name` accordingly.
+- You can also add an image attachment by replacing the `attachment_image.png`
 - Now you're all set to send out the initial set of e-mails.
 - Run the `mail_file.py` and send a mail to another account for testing. The first time, you will be redirected to an external URL, complete that Auth using the e-mail id you added as test user in the OAuth consent screen.
 - On successful authentication, you will see that token files will be saved in the current directory.
